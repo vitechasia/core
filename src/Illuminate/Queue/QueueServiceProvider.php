@@ -18,7 +18,7 @@ use Illuminate\Queue\Failed\NullFailedJobProvider;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
-use Vdes\SerializableClosure\SerializableClosure;
+use Laravel\SerializableClosure\SerializableClosure;
 
 class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
 {
