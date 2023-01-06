@@ -17,7 +17,7 @@ class CallQueuedClosure implements ShouldQueue
     /**
      * The serializable Closure instance.
      *
-     * @var \Vdes\SerializableClosure\SerializableClosure
+     * @var \Laravel\SerializableClosure\SerializableClosure
      */
     public $closure;
 
@@ -38,7 +38,7 @@ class CallQueuedClosure implements ShouldQueue
     /**
      * Create a new job instance.
      *
-     * @param  \Vdes\SerializableClosure\SerializableClosure  $closure
+     * @param  \Laravel\SerializableClosure\SerializableClosure  $closure
      * @return void
      */
     public function __construct($closure)

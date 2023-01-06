@@ -14,7 +14,7 @@ use Illuminate\Routing\Matching\UriValidator;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
-use Vdes\SerializableClosure\SerializableClosure;
+use Laravel\SerializableClosure\SerializableClosure;
 use LogicException;
 use Opis\Closure\SerializableClosure as OpisSerializableClosure;
 use ReflectionFunction;

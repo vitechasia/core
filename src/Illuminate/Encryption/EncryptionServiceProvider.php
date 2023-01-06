@@ -4,7 +4,7 @@ namespace Illuminate\Encryption;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
-use Vdes\SerializableClosure\SerializableClosure;
+use Laravel\SerializableClosure\SerializableClosure;
 use Opis\Closure\SerializableClosure as OpisSerializableClosure;
 
 class EncryptionServiceProvider extends ServiceProvider
