@@ -3,7 +3,7 @@
 namespace Illuminate\Queue;
 
 use Closure;
-use Vdes\SerializableClosure\SerializableClosure;
+use Laravel\SerializableClosure\SerializableClosure;
 use Opis\Closure\SerializableClosure as OpisSerializableClosure;
 
 /**
@@ -15,7 +15,7 @@ class SerializableClosureFactory
      * Creates a new serializable closure from the given closure.
      *
      * @param  \Closure  $closure
-     * @return \Vdes\SerializableClosure\SerializableClosure
+     * @return \Laravel\SerializableClosure\SerializableClosure
      */
     public static function make($closure)
     {
