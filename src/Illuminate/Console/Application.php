@@ -62,7 +62,12 @@ class Application extends SymfonyApplication implements ApplicationContract
      */
     public function __construct(Container $vdes, Dispatcher $events, $version)
     {
-        parent::__construct('Vdes Framework', $version);
+        parent::__construct(" _    __    __         
+        | |  / /___/ /__  _____
+        | | / / __  / _ \/ ___/
+        | |/ / /_/ /  __(__  ) 
+        |___/\__,_/\___/____/  
+                               v ", $version);
 
         $this->vdes = $vdes;
         $this->events = $events;
