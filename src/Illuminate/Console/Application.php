@@ -62,7 +62,8 @@ class Application extends SymfonyApplication implements ApplicationContract
      */
     public function __construct(Container $vdes, Dispatcher $events, $version)
     {
-        parent::__construct(" _    __    __         
+        parent::__construct("
+         _    __    __         
         | |  / /___/ /__  _____
         | | / / __  / _ \/ ___/
         | |/ / /_/ /  __(__  ) 
