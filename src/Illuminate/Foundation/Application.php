@@ -33,7 +33,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
      *
      * @var string
      */
-    const VERSION = '1.0.0';
+    const VERSION = '2.1.1';
 
     /**
      * The base path for the Vdes installation.
